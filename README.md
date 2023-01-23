@@ -16,19 +16,19 @@ This is a repository learning tailwindCSS version 3.2.4
      ```js
      /** @type {import('tailwindcss').Config} */
         module.exports = {
-          content: ["./src/**/*.{html,js}"],
+          content: ["./public/**/*.{html,js}"],
           theme: {
             extend: {},
           },
           plugins: [],
         }
         ```
-  6. create file 'src/input.css', add code
+  6. create file 'src/css/input.css', add code
       ```css
       @tailwind base;
       @tailwind components;
       @tailwind utilities;
       ```
-  7. command input ```npx tailwindcss -i ./src/input.css -o ./public/style.css --watch```
-  8. create file 'src/index.html', add code 
-    ```<link href="/public/style.css" rel="stylesheet">```
+  7. command input ```npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch```
+  8. create file 'public/index.html', add code 
+    ```<link href="css/style.css" rel="stylesheet">```
