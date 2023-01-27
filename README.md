@@ -9,8 +9,8 @@ This is a repository learning tailwindCSS version 3.2.4
 
 **How to install tailwindcss use CLI(Command Line Interface):**
   1. install npm and node.js https://nodejs.org/en/download/
-  2. create folder for learn
-  3. open folder learn in cmd
+  2. create folder for learn, then open folder learn in cmd
+  3. command input ```npm init -y``` make add file package.json
   4. command input ```npm install -D tailwindcss``` and ```npx tailwindcss init```
   5. Configure your template paths, open file 'tailwind.config.js' then edit
      ```js
